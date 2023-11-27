@@ -1,0 +1,14 @@
+.quienes-somos {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .quienes-somos h2 {
+    font-size: 3em;
+  }
+  
+  .quienes-somos p {
+    font-size: 1.5em;
+  }

@@ -1,0 +1,24 @@
+.politica-de-privacidad {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .politica-de-privacidad h2 {
+    font-size: 3em;
+  }
+  
+  .politica-de-privacidad ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .politica-de-privacidad ul li {
+    margin-bottom: 10px;
+  }
+  
+  .politica-de-privacidad ul li p {
+    font-size: 1.5em;
+  }

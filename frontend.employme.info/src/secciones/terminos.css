@@ -1,0 +1,60 @@
+.terminos-y-condiciones {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.terminos-y-condiciones header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.terminos-y-condiciones header h2 {
+  font-size: 3em;
+}
+
+.terminos-y-condiciones header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.terminos-y-condiciones header nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.terminos-y-condiciones main {
+  flex: 1;
+}
+
+.terminos-y-condiciones main section {
+  padding: 20px;
+}
+
+.terminos-y-condiciones main section h2 {
+  font-size: 2em;
+}
+
+.terminos-y-condiciones main section p {
+  font-size: 1.5em;
+}
+
+.terminos-y-condiciones main section p strong {
+  font-weight: bold;
+}
+
+.terminos-y-condiciones main section p a {
+  color: #000000;
+}
+
+.terminos-y-condiciones footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}

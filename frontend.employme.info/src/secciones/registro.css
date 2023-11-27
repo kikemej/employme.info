@@ -1,0 +1,74 @@
+.registro {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registro header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .registro header h2 {
+    font-size: 3em;
+  
+  }
+  
+  .registro header nav {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .registro header nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .registro main {
+    flex: 1;
+  }
+  
+  .registro main section {
+    padding: 20px;
+  }
+  
+  .registro main section h2 {
+    font-size: 2em;
+  }
+  
+  .registro main section p {
+    font-size: 1em;
+  }
+  
+  .registro main section p strong {
+    font-weight: bold;
+  }
+  
+  .registro main section p a {
+    color: #000000;
+  }
+  
+  .registro footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container img {
+    width: 100%; /* Esto ajustará la imagen al ancho del contenedor */
+    height: auto; /* Esto mantendrá la proporción original de la imagen */
+  }
+  

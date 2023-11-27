@@ -1,0 +1,73 @@
+.servicios {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.servicios header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.servicios header h2 {
+  font-size: 3em;
+
+}
+
+.servicios header nav {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.servicios header nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.servicios main {
+  flex: 1;
+}
+
+.servicios main section {
+  padding: 20px;
+}
+
+.servicios main section h2 {
+  font-size: 2em;
+}
+
+.servicios main section p {
+  font-size: 1.5em;
+}
+
+.servicios main section p strong {
+  font-weight: bold;
+}
+
+.servicios main section p a {
+  color: #000000;
+}
+
+.servicios footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 100%; /* Esto ajustará la imagen al ancho del contenedor */
+  height: auto; /* Esto mantendrá la proporción original de la imagen */
+}

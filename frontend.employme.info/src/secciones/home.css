@@ -1,0 +1,73 @@
+.home {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.home header {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home header h2 {
+  font-size: 3em;
+
+}
+
+.home header nav {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.home header nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.home main {
+  flex: 1;
+}
+
+.home main section {
+  padding: 20px;
+}
+
+.home main section h2 {
+  font-size: 2em;
+}
+
+.home main section p {
+  font-size: 1em;
+}
+
+.home main section p strong {
+  font-weight: bold;
+}
+
+.home main section p a {
+  color: #000000;
+}
+
+.home footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 100%; /* Esto ajustará la imagen al ancho del contenedor */
+  height: auto; /* Esto mantendrá la proporción original de la imagen */
+}

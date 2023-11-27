@@ -1,0 +1,18 @@
+.contacto-redes-sociales {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contacto-redes-sociales h2 {
+    font-size: 3em;
+  }
+  
+  .contacto-redes-sociales .contacto {
+    margin-bottom: 20px;
+  }
+  
+  .contacto-redes-sociales .redes-sociales {
+    margin-top: 20px;
+  }
